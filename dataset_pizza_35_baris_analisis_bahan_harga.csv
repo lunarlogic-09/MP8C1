@@ -1,0 +1,36 @@
+pizza_name;pizza_size;pizza_ingredients;ingredient_count;ingredient_category;unit_price;quantity;total_price;pizza_id;order_id;pizza_name_id;order_date;order_time;pizza_category
+The Sicilian Pizza;L;Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic;6;Lengkap;20,25;1;20,25;1476;654;sicilian_l;11/01/2015;16:34:07;Supreme
+The Southwest Chicken Pizza;L;Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce;8;Sangat Lengkap;20,75;1;20,75;1609;718;southw_ckn_l;12/01/2015;17:46:30;Chicken
+The Barbecue Chicken Pizza;L;Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce;6;Lengkap;20,75;1;20,75;4258;1889;bbq_ckn_l;01/02/2015;17:03:26;Chicken
+The Hawaiian Pizza;S;Sliced Ham, Pineapple, Mozzarella Cheese;3;Sederhana;10,5;1;10,5;4431;1969;hawaiian_s;02/02/2015;17:10:43;Classic
+The Chicken Pesto Pizza;L;Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce;6;Lengkap;20,75;1;20,75;5914;2622;ckn_pesto_l;13/02/2015;16:06:27;Chicken
+The Chicken Pesto Pizza;M;Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce;6;Lengkap;16,75;1;16,75;11382;5003;ckn_pesto_m;26/03/2015;11:50:45;Chicken
+The Four Cheese Pizza;L;Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic;5;Sedang;17,95;1;17,95;11674;5132;four_cheese_l;27/03/2015;22:52:56;Veggie
+The Barbecue Chicken Pizza;M;Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce;6;Lengkap;16,75;1;16,75;13515;5930;bbq_ckn_m;10/04/2015;14:44:44;Chicken
+The Classic Deluxe Pizza;S;Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon;5;Sedang;12;1;12;14112;6178;classic_dlx_s;14/04/2015;15:51:13;Classic
+The Big Meat Pizza;S;Bacon, Pepperoni, Italian Sausage, Chorizo Sausage;4;Sedang;12;1;12;14710;6429;big_meat_s;18/04/2015;18:47:41;Classic
+The Big Meat Pizza;S;Bacon, Pepperoni, Italian Sausage, Chorizo Sausage;4;Sedang;12;1;12;14737;6444;big_meat_s;18/04/2015;20:50:24;Classic
+The Spinach Supreme Pizza;L;Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese;8;Sangat Lengkap;20,75;1;20,75;16619;7319;spinach_supr_l;03/05/2015;13:16:01;Supreme
+The Hawaiian Pizza;M;Sliced Ham, Pineapple, Mozzarella Cheese;3;Sederhana;13,25;2;26,5;16866;7424;hawaiian_m;05/05/2015;13:10:00;Classic
+The Italian Capocollo Pizza;M;Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano;6;Lengkap;16;1;16;17539;7706;ital_cpcllo_m;10/05/2015;11:55:09;Classic
+The Sicilian Pizza;S;Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic;6;Lengkap;12,25;1;12,25;18298;8035;sicilian_s;15/05/2015;13:38:19;Supreme
+The Hawaiian Pizza;L;Sliced Ham, Pineapple, Mozzarella Cheese;3;Sederhana;16,5;2;33;23775;10457;hawaiian_l;25/06/2015;12:22:42;Classic
+The Hawaiian Pizza;L;Sliced Ham, Pineapple, Mozzarella Cheese;3;Sederhana;16,5;1;16,5;23832;10477;hawaiian_l;25/06/2015;15:26:30;Classic
+The Barbecue Chicken Pizza;S;Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce;6;Lengkap;12,75;1;12,75;24816;10916;bbq_ckn_s;02/07/2015;19:01:57;Chicken
+The Classic Deluxe Pizza;S;Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon;5;Sedang;12;1;12;24941;10974;classic_dlx_s;03/07/2015;18:05:44;Classic
+The Barbecue Chicken Pizza;L;Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce;6;Lengkap;20,75;1;20,75;27714;12206;bbq_ckn_l;23/07/2015;14:19:09;Chicken
+The Vegetables + Vegetables Pizza;M;Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic;8;Sangat Lengkap;16;1;16;31099;13733;veggie_veg_m;17/08/2015;13:48:00;Veggie
+The Five Cheese Pizza;L;Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic;6;Lengkap;18,5;1;18,5;31489;13903;five_cheese_l;20/08/2015;13:49:47;Veggie
+The Napolitana Pizza;L;Tomatoes, Anchovies, Green Olives, Red Onions, Garlic;5;Sedang;20,5;1;20,5;33231;14689;napolitana_l;03/09/2015;12:42:35;Classic
+The Classic Deluxe Pizza;S;Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon;5;Sedang;12;1;12;34894;15409;classic_dlx_s;15/09/2015;11:43:36;Classic
+The California Chicken Pizza;L;Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese;7;Lengkap;20,75;4;83;35497;15674;cali_ckn_l;19/09/2015;14:16:35;Chicken
+The Classic Deluxe Pizza;M;Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon;5;Sedang;16;1;16;35789;15802;classic_dlx_m;21/09/2015;17:31:57;Classic
+The Thai Chicken Pizza;L;Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce;5;Sedang;20,75;2;41,5;36250;16002;thai_ckn_l;27/09/2015;13:01:46;Chicken
+The Italian Supreme Pizza;L;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;6;Lengkap;20,75;1;20,75;36371;16057;ital_supr_l;27/09/2015;22:09:46;Supreme
+The Sicilian Pizza;S;Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic;6;Lengkap;12,25;1;12,25;41028;18071;sicilian_s;04/11/2015;18:48:35;Supreme
+The Four Cheese Pizza;M;Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic;5;Sedang;14,75;1;14,75;41175;18136;four_cheese_m;05/11/2015;20:18:36;Veggie
+The Barbecue Chicken Pizza;M;Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce;6;Lengkap;16,75;3;50,25;42847;18845;bbq_ckn_m;18/11/2015;12:25:12;Chicken
+The Barbecue Chicken Pizza;L;Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce;6;Lengkap;20,75;1;20,75;45404;19946;bbq_ckn_l;05/12/2015;16:13:46;Chicken
+The Thai Chicken Pizza;L;Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce;5;Sedang;20,75;1;20,75;47709;20973;thai_ckn_l;22/12/2015;16:40:09;Chicken
+The Five Cheese Pizza;L;Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic;6;Lengkap;18,5;1;18,5;48084;21133;five_cheese_l;26/12/2015;19:12:48;Veggie
+The Spicy Italian Pizza;L;Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic;6;Lengkap;20,75;1;20,75;48209;21188;spicy_ital_l;28/12/2015;12:38:39;Supreme
