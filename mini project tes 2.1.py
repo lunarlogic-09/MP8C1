@@ -2,12 +2,74 @@ import csv
 
 NAMA_FILE_DEFAULT = "dataset_pizza_35_baris_analisis_bahan_harga.csv"
 
+AKUN = {"pizza": "8C"}
+MAKS_PERCOBAAN = 3
+
 def input_pilihan(teks, pilihan_valid):
     while True:
         jawaban = input(teks).strip().upper()
         if jawaban in pilihan_valid:
             return jawaban
         print("Input tidak valid. Pilihan yang tersedia:", ", ".join(pilihan_valid))
+
+
+def tampil_sampul():
+    lebar = 65
+
+    anggota = [
+        ("Briantara Abimanyu Putra Arigisha", "2610932014"),
+        ("Cahaya Latifa Aquastya Sakti", "2610932030"),
+        ("Fachri Akeza Maulana", "2610933036"),
+        ("Imam Maulana", "2610933040"),
+    ]
+
+    print("=" * lebar)
+    print("MINI PROJECT".center(lebar))
+    print("PEMROGRAMAN KOMPUTER".center(lebar))
+    print("(Analisis Perbandingan Rata-Rata Harga Jual Pizza Berdasarkan".center(lebar))
+    print("Tingkat Kelengkapan Bahan Baku Menggunakan Python)".center(lebar))
+    print()
+    print("Oleh:".center(lebar))
+    print("Kelompok 8C".center(lebar))
+    print()
+    print("Anggota:".center(lebar))
+
+    for nama, nim in anggota:
+        print(f"{nama:<36}({nim})".center(lebar))
+
+    print()
+    print("Asisten Pembimbing:".center(lebar))
+    print("Jihan Fitri Sakinah dan Hafzi Rizal".center(lebar))
+    print()
+    print("Dosen Pengampu:".center(lebar))
+    print("Dr. Asmuliardi Muluk, S.T., M.T.".center(lebar))
+    print()
+    print("LABORATORIUM SISTEM INFORMASI DAN KEPUTUSAN".center(lebar))
+    print("DEPARTEMEN TEKNIK INDUSTRI".center(lebar))
+    print("FAKULTAS TEKNIK".center(lebar))
+    print("UNIVERSITAS ANDALAS".center(lebar))
+    print("2026".center(lebar))
+    print("=" * lebar)
+    print()
+
+
+def login():
+
+    percobaan = 1
+
+    while percobaan <= MAKS_PERCOBAAN:
+        username = input("Username: ").strip()
+        password = input("Password: ").strip()
+
+        if username in AKUN and AKUN[username] == password:
+            print(f"\nLogin berhasil. Selamat datang, {username}!")
+            return username
+
+        sisa = MAKS_PERCOBAAN - percobaan
+        print(f"Username atau password salah. Sisa percobaan: {sisa}\n")
+        percobaan += 1
+
+    return None
 
 
 def input_nama_file():
@@ -361,6 +423,13 @@ def tampil_menu_utama():
     print("=" * 65)
 
 def main():
+    tampil_sampul()
+    user = login()
+
+    if user is None:
+        print("Login gagal. Program dihentikan.")
+        return
+
     nama_file = input_nama_file()
     data = baca_data(nama_file)
 
